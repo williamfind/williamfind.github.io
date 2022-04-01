@@ -9,7 +9,7 @@ body{
 	/*background-image: url(psy.gif);*/
 	/*background-color: #ff00d3;*/
   background-image:    url(images/background.svg);
-  background-size:     cover;                      /* <------ */
+  background-size:     50vw;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center center;              /* optional, center the image */
 }
