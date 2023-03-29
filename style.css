@@ -1,0 +1,102 @@
+/* Stuff quick fix hacks and shit */
+
+/* red border around bootstrap stuff */
+/* .row, .col, .col-md-6{
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+ */
+
+
+
+/* Style the header */
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+    width: 100vw;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #e2e2e2;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo img {
+	height: 50px;
+}
+
+.nav ul {
+	display: flex;
+	list-style: none;
+}
+
+
+.nav li {
+	margin-right: 20px;
+}
+
+.nav a {
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* Set the height of the content area */
+.content {
+	min-height: calc(100vh - 200px); /* 100px is the height of the header, 100px is the height of the footer */
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+/* Container styling */
+body{
+    background-color: rgb(3, 39, 48);
+}
+.container{
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.row{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+/* text styling */
+
+h1, h2, p{
+    color: white;
+}
+
+
+.centertext{
+    text-align: center;
+}
+
+hr{
+    height:2px;
+    background-color: white;
+}
+
+
+/* Style the footer */
+.footer {
+	height: 4vh;
+    width: 100vw;
+	background-color: #120042;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	text-align: center;
+    position: relative;
+    bottom: 0px;
+}
+.footer p{
+    color: rgb(153, 153, 153);
+}
+
